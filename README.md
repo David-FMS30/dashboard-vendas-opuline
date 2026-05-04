@@ -1,4 +1,4 @@
-# 💄 Projeto Opuline: Dashboard Estratégico de Vendas e Logística
+#  Projeto Opuline: Dashboard Estratégico de Vendas e Logística
 
 > **Nota:** Este é um projeto construído com dados fictícios, desenvolvido para fins de estudo e demonstração prática de competências avançadas em Business Intelligence e Power BI.
 
@@ -8,22 +8,20 @@ A **Opuline** é uma empresa de cosméticos que busca uma cultura *data-driven*.
 ![Análise de Faturamento por Produto](./img/Produtos.jpg)
 ![Análise de Faturamento por Vendas](./img/Vendas.jpg)
 
-![Dashboard Opuline](./img/dashboard_opuline.png)
-
-## 📌 Objetivos do Projeto
+##  Objetivos do Projeto
 * Mapear o faturamento por categorias, marcas e origem dos produtos (Nacional vs. Internacional).
 * Monitorar o desempenho da meta de entrega logística (**Ship-to-Door**).
 * Acompanhar o cumprimento das metas financeiras mensais.
 * Aplicar recursos estatísticos para identificar anomalias e prever faturamentos futuros.
 * Criar uma experiência de usuário (UX) fluida com navegação entre páginas e dicas de ferramentas personalizadas (Tooltips).
 
-## 🛠️ Tecnologias e Ferramentas
+##  Tecnologias e Ferramentas
 * **Power BI Desktop:** Modelagem, cálculos e construção de relatórios.
 * **Linguagem DAX:** Criação de métricas de negócio e parâmetros dinâmicos.
 * **Inteligência Artificial (PBI):** Linhas de tendência, Previsão (Forecast) e Detecção de Anomalias.
 * **UX/UI Design:** Importação de layouts customizados, uso de paleta de cores hexadecimal (#BD6E6E, #663651, etc.) e botões de navegação.
 
-## 📊 Estrutura e Modelagem de Dados
+##  Estrutura e Modelagem de Dados
 O modelo de dados foi estruturado em **Star Schema** (Esquema Estrela), otimizando a performance do relatório:
 * **Tabela Fato:** `fPedidos` (Registro de vendas, datas e tempo de entrega).
 * **Tabelas Dimensão:** `dMarcas`, `dProdutosFinais`, `dCategoriasProdutos`, `dMetaMensal` e `Calendário`.
