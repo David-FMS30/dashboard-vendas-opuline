@@ -4,9 +4,9 @@
 
 A **Opuline** é uma empresa de cosméticos que busca uma cultura *data-driven*. Este projeto consistiu em desenvolver um relatório interativo e visualmente estratégico, ajudando a empresa a identificar padrões de vendas, tendências temporais e oportunidades de melhoria logística.
 
-## 🖼️ Visualização do Dashboard
-
-*(**Nota:** Substitua o link abaixo pelo nome real da sua imagem na pasta `/img`)*
+## 📊 Detalhamento das Análises
+![Análise de Faturamento por Produto](./img/Produtos.jpg)
+![Análise de Faturamento por Vendas](./img/Vendas.jpg)
 
 ![Dashboard Opuline](./img/dashboard_opuline.png)
 
